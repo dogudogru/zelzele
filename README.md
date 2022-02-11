@@ -1,7 +1,7 @@
 ![Zelzele App](img/pngegg.png)
 # Zelzele App
 
-Try here 👉: 
+Try here 👉: https://share.streamlit.io/dogudogru/zelzele/main
  
 <br>
 <h3> <b>Turkey Earthquake Dashboard</b> - Displays the last 500 earthquakes happened in Turkey on different maps and charts. </h3>
