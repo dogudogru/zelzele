@@ -6,7 +6,7 @@ import plotly.express as px
 @st.cache
 def dataConstructer(url):
 
-    df = pd.read_table(url, skiprows=[0, 1, 2, 3, 5], delimiter='/n', encoding='ISO-8859-1')
+    df = pd.read_table(url, skiprows=[0, 1, 2, 3, 5], delimiter='/n', encoding='ISO-8859-1', error_bad_lines=False)
     df = df[66:566]
     df.columns = ['row']
     df = df['row'].str.split('\s+', n=8, expand=True)
